@@ -23,3 +23,18 @@ function compute(answer, button){
     display(img);
     thinkAboutIt(answer+button);
 }
+
+
+/*
+function shouldITextHim(){
+    document.getElementById('unsure').onclick = function() {
+      var unsure = true;
+    }​;​
+
+    if (unsure == true)
+       var fuccboi = true;
+    if (fuccboi == true)
+         var answer = false;
+    return answer;     
+}
+*/
