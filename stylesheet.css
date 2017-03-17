@@ -13,7 +13,7 @@ html {
 img {
     height: 70vh;
     width: auto;
-    }
+    }    
 
 @media only screen 
   and (min-device-width: 375px) 
@@ -23,5 +23,4 @@ img {
             width: 70vw;
             height: auto;
       }
-
 }
