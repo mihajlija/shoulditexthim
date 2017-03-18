@@ -24,3 +24,18 @@ img {
             height: auto;
       }
 }
+
+.about {
+    background-color: black;
+    color: white;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: height 0.3s ease-in-out;
+}
+
+.about.open {
+    height: 100%;
+}
