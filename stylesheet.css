@@ -9,20 +9,19 @@ html {
     background: -moz-linear-gradient(#EEC198, #FDBDD9); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#EEC198, #FDBDD9); /* Standard syntax */
 }
+ 
+ img {
+     width: 80%;
+ }
 
-img {
-    height: 70vh;
-    width: auto;
-    }    
-
-@media only screen 
+/*@media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) { 
       img {
-            width: 70vw;
+            max-width: 70vw;
             height: auto;
       }
-}
+}*/
 
 .about {
     background-color: black;
