@@ -4,11 +4,17 @@
  var img = "<img src='http://i3.kym-cdn.com/photos/images/newsfeed/001/179/536/c7f.gif'/>";
  var button = "<a class='f4 link ph4 pv3 mb2 dib white bg-black tracked' href='#0' onclick='compute(answer2, button)'>Are you sure?</a>";
 
- function compute(answer, button) {
-     console.log("test");
-     display(img);
-     thinkAboutIt(answer + button);
- }
+
+
+  function shouldITextHim(click){
+     if (click==true)
+        var unsure = true; 
+     if (unsure == true)
+        var fuccboi = true;
+     if (fuccboi == true)
+          var answer = false;
+     return answer;     
+ }    
 
  function display(html) {
      document.getElementById("main").innerHTML = html;
@@ -26,24 +32,18 @@
      }, milliseconds);
  }
 
-
- /*
- function shouldITextHim(){
-     document.getElementById('unsure').onclick = function() {
-       var unsure = true;
-     }​;​
-
-     if (unsure == true)
-        var fuccboi = true;
-     if (fuccboi == true)
-          var answer = false;
-     return answer;     
+  function compute(answer, button) {
+     var click = true;
+     if (! shouldITextHim(click)) {
+     display(img);
+     thinkAboutIt(answer + button);
+     }
  }
- */
+
 
  document.addEventListener("DOMContentLoaded", function (event) {
 
-
+    
      var aboutBtnOpen = document.getElementById("js-about-open");
      var aboutBtnClose = document.getElementById("js-about-close")
      var aboutPage = document.getElementById("js-about-page");
