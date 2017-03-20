@@ -12,6 +12,7 @@ html {
  
  img {
      width: 80%;
+     max-width: 700px;
  }
 
 /*@media only screen 
