@@ -9,8 +9,32 @@ html {
     background: -moz-linear-gradient(#EEC198, #FDBDD9); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#EEC198, #FDBDD9); /* Standard syntax */
 }
+ 
+ img {
+     width: 80%;
+     max-width: 700px;
+ }
 
-img {
-    height: 70vh;
-    width: auto;
-    }
+/*@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) { 
+      img {
+            max-width: 70vw;
+            height: auto;
+      }
+}*/
+
+.about {
+    background-color: black;
+    color: white;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: height 0.3s ease-in-out;
+}
+
+.about.open {
+    height: 100%;
+}
