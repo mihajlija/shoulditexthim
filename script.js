@@ -1,10 +1,8 @@
 
- var answer1 = "<h1 class='f6 f2-m f-subheadline-l fw8 tc b'>No.</h1>";
- var answer2 = "<h1 class='f6 f2-m f-subheadline-l fw8 tc b'>Don't text him.</h1>";
- var img = "<img src='http://i3.kym-cdn.com/photos/images/newsfeed/001/179/536/c7f.gif'/>";
- var button = "<a class='f4 link ph4 pv3 mb2 dib white bg-black tracked' href='#0' onclick='compute(answer2, button)'>Are you sure?</a>";
-
-
+var answer1 =  "<h1 class='f6 f2-m f-subheadline-l fw8 tc b'>No.</h1>";
+var answer2 =  "<h1 class='f6 f2-m f-subheadline-l fw8 tc b'>Don't text him.</h1>";
+var img = "<img src='math-lady.gif'/>";
+var button = "<a class='f4 link ph4 pv3 mb2 dib white bg-black tracked' href='#0' onclick='compute(answer2, button)'>Are you sure?</a>";
 
   function shouldITextHim(click){
      if (click==true)
